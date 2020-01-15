@@ -30,6 +30,6 @@ This will generate structured data in **./struct_data** folder.
 The best model would be saved in **./model** folder.
 ### Testing
 ```
-./test.sh [output file name]
+./test.sh [output file path]
 ```
-The output .csv file would be dumped in **./output** folder.
+The output .csv file would be dumped in the specified path.
