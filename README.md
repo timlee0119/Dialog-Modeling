@@ -33,8 +33,7 @@ The best model would be saved in **./model** folder.
 ./test.sh [output file path]
 ```
 The output .csv file would be dumped in the specified path.  
-This will download and use the best model we trained on Dropbox automatically.  
-If you want to specify model path, please run
+This will download and use the best model we trained on Dropbox automatically. If you want to specify a model path, please run
 ```
 ./test.sh [output file path] [model path]
 ```
