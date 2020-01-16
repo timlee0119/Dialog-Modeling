@@ -1,7 +1,8 @@
 src/__pycache__/
-!struct_data/
+*.swp
 struct_data/*
 !struct_data/.gitkeep
-!data/
 data/*
 !data/.gitkeep
+model/*
+!model/.gitkeep
