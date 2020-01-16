@@ -1,0 +1,7 @@
+src/__pycache__/
+!struct_data/
+struct_data/*
+!struct_data/.gitkeep
+!data/
+data/*
+!data/.gitkeep
