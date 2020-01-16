@@ -1,6 +1,6 @@
 # Dialog Modeling
 NTU Machine Learning Final Project, 2019 fall  
-Kaggle : https://www.kaggle.com/c/ml2019fall-final-dialogue/overview
+Kaggle competition: https://www.kaggle.com/c/ml2019fall-final-dialogue/overview
 
 ## Prerequisites
 * Python 3.6
