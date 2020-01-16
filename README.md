@@ -1,5 +1,6 @@
 # Dialog Modeling
-NTU Machine Learning Final Project, 2019 fall
+NTU Machine Learning Final Project, 2019 fall  
+Kaggle url: https://www.kaggle.com/c/ml2019fall-final-dialogue/overview
 
 ## Prerequisites
 * Python 3.6
@@ -14,12 +15,13 @@ pip install -r requirements.txt
 
 ## Usage
 ### Download dataset
+You can directly download the preprocessed data (recommended)
+```
+./download_preprocessed_data.sh
+```
+Or download raw data then run preprocess script
 ```
 ./download_dataset.sh
-```
-Three files (**train.json, valid.json, test.json**) would be downloaded in **./data** folder.
-### Data preprocessing
-```
 ./preprocess_data.sh
 ```
 This will generate structured data that are used for training in **./struct_data** folder.
@@ -27,14 +29,14 @@ This will generate structured data that are used for training in **./struct_data
 ```
 ./train.sh <epoch> <batch size> <learning rate>
 ```
-The fine-tuned BERT models would be saved in **./model** folder.
+The fine-tuned BERT models would be saved in **./model** folder.  
 Suggested parameters: epoch = 2, batch size = 4, learning rate = 1e-5
 ### Testing
 ```
 ./test.sh [output file path]
 ```
 The output .csv file would be dumped in the specified path.  
-This will download and use the best model we trained on Dropbox automatically. If you want to specify a model path, please run
+The above command will download and use the best model we trained automatically. If you want to specify a model path, please run
 ```
 ./test.sh [output file path] [model path]
 ```
