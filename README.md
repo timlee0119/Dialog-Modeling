@@ -1,6 +1,6 @@
 # Dialog Modeling
 NTU Machine Learning Final Project, 2019 fall  
-Kaggle url: https://www.kaggle.com/c/ml2019fall-final-dialogue/overview
+Kaggle competition: https://www.kaggle.com/c/ml2019fall-final-dialogue/overview
 
 ## Prerequisites
 * Python 3.6
@@ -24,7 +24,7 @@ Or download raw data then run preprocess script
 ./download_dataset.sh
 ./preprocess_data.sh
 ```
-This will generate structured data that are used for training in **./struct_data** folder.
+Structured data that are used for training would be generated in **./struct_data** folder.
 ### Training
 ```
 ./train.sh <epoch> <batch size> <learning rate>
