@@ -46,7 +46,7 @@ def main(argv, arc):
     
     # create folder if folder not exists
     print(f'Writing results to {output_path}')
-    dirname = os.path.dirname(path)
+    dirname = os.path.dirname(output_path)
     if dirname and not os.path.exists(dirname):
         os.makedirs(dirname)
     pred_df.to_csv(output_path, index = False)

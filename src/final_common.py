@@ -280,7 +280,7 @@ class bert_model():
 
     
     def predict(self, test_data):
-        test_batch_size = 4
+        test_batch_size = 6
         ans = []
         if self.gpu:
             self.model = self.model.cuda()
