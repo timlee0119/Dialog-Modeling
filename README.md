@@ -36,7 +36,7 @@ Suggested parameters: epoch = 2, batch size = 4, learning rate = 1e-5
 ./test.sh <output file path>
 ```
 The output .csv file would be dumped in the specified path.  
-The above command will download and use the best model we trained automatically. If you want to specify a model path, please run
+***The above command will download and use the best model we trained automatically***. If you want to specify a model path, please run
 ```
 ./test.sh <output file path> [model path]
 ```
