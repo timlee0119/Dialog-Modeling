@@ -1,4 +1,5 @@
 src/__pycache__/
+output/
 *.swp
 struct_data/*
 !struct_data/.gitkeep

@@ -26,7 +26,6 @@ def main(argv, arc):
     
     model = bert_model(pre_trained_model_name)
     model.model = BertForSequenceClassification.from_pretrained(pre_trained_model_name, num_labels=NUM_LABELS)
-#     model.model.load_state_dict(torch.load('./model/bert_model_1e-05_4_lower_0102_SC_adamw_f3_valepo1_A300_torch_dict_tuned_val', map_location= f'cuda:{device}'))
     model.model.load_state_dict(torch.load(argv[3]))
 
     print('Start testing...')
