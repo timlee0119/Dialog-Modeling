@@ -22,7 +22,7 @@ Three files (**train.json, valid.json, test.json**) would be downloaded in **./d
 ```
 ./preprocess_data.sh
 ```
-This will generate structured data used for training in **./struct_data** folder.
+This will generate structured data that are used for training in **./struct_data** folder.
 ### Training
 ```
 ./train.sh
