@@ -24,7 +24,7 @@ Or download raw data then run preprocess script
 ./download_dataset.sh
 ./preprocess_data.sh
 ```
-This will generate structured data that are used for training in **./struct_data** folder.
+Structured data that are used for training would be generated in **./struct_data** folder.
 ### Training
 ```
 ./train.sh <epoch> <batch size> <learning rate>
