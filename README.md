@@ -25,9 +25,10 @@ Three files (**train.json, valid.json, test.json**) would be downloaded in **./d
 This will generate structured data that are used for training in **./struct_data** folder.
 ### Training
 ```
-./train.sh
+./train.sh <epoch> <batch size> <learning rate>
 ```
-The best model would be saved in **./model** folder.
+The fine-tuned BERT models would be saved in **./model** folder.
+Suggested parameters: epoch = 2, batch size = 4, learning rate = 1e-5
 ### Testing
 ```
 ./test.sh [output file path]
