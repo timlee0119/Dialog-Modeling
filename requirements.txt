@@ -13,4 +13,4 @@ six==1.13.0
 torch==1.2.0
 tqdm==4.41.1
 transformers==2.1.1
-urllib3==1.25.7
+urllib3==1.26.5
